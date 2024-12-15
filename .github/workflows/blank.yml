@@ -10,7 +10,7 @@ on:
       IMG_URL:
         description: 'IMG_URL'
         required: true
-        default: 'https://dumps.tadiphone.dev/dumps/smartisan/darwin/-/blob/qssi-user-11-RKQ1.201217.002-1-dev-keys/recovery.img'
+        default: 'http://149.28.94.159:5244/d/mnt/alisk_disk/darwin/boot.img?sign=YuqrfE-TRElLkFlNf7jBn5Mw1igUDUQ4FAYtbPGNmJk=:0'
 
 jobs:
   build:

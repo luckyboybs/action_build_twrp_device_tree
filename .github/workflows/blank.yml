@@ -10,12 +10,12 @@ on:
       IMG_URL:
         description: 'IMG_URL'
         required: true
-        default: 'http://149.28.94.159:5244/d/mnt/alisk_disk/darwin/boot.img?sign=YuqrfE-TRElLkFlNf7jBn5Mw1igUDUQ4FAYtbPGNmJk=:0'
+        default: 'https://dumps.tadiphone.dev/dumps/smartisan/darwin/-/raw/f863db447b0fbf8f05e2398cd2fdfef22f8fd88e/recovery.img'
 
 jobs:
   build:
     if: github.event.repository.owner.id == github.event.sender.id
-    runs-on: ubuntu-22
+    runs-on: ubuntu-22.04
 
     
     steps:
